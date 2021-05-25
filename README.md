@@ -25,4 +25,6 @@ The views expressed in this paper are those of the authors; no responsibility fo
 ## References
 Statistics Canada. 2020. "[PostalCode Conversion File (PCCF), Reference Guide](https://www.canadapost-postescanada.ca/cpc/doc/en/marketing/postal-code-conversion-file-reference-guide.pdf)."
 
-Canada Post. 2016. "[Postal Code Latitude/Longitude Data Technical Specifications](https://www.canadapost-postescanada.ca/cpo/mc/assets/pdf/business/pc_latLong_specs_en.pdf).".
+Canada Post. 2016. "[Postal Code Latitude/Longitude Data Technical Specifications](https://www.canadapost-postescanada.ca/cpo/mc/assets/pdf/business/pc_latLong_specs_en.pdf)."
+
+Henry, Christopher, Kim Huynh, and Angelika Welte. 2018. "[2017 Methods-of-Payment Survey Report](https://www.bankofcanada.ca/2018/12/staff-discussion-paper-2018-17/)." *Bank of Canada Staff Discussion Papers (18-17)*.
