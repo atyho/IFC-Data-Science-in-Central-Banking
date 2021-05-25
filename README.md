@@ -23,5 +23,6 @@ The code is licensed under a MIT license. See [LICENSE.txt](LICENSE.txt) for det
 The views expressed in this paper are those of the authors; no responsibility for these views should be attributed to the authors' affiliated organizations; all errors are the responsibility of the authors. We thank the ITS department at the Bank of Canada for their excellent assistance with Microsoft Azure Databricks. 
 
 ## References
-Statistics Canada. 2020. "[PostalCode Conversion File (PCCF), Reference Guide](https://www.canadapost-postescanada.ca/cpc/doc/en/marketing/postal-code-conversion-file-reference-guide.pdf)"
+Statistics Canada. 2020. "[PostalCode Conversion File (PCCF), Reference Guide](https://www.canadapost-postescanada.ca/cpc/doc/en/marketing/postal-code-conversion-file-reference-guide.pdf)."
 
+Canada Post. 2016. "[Postal Code Latitude/Longitude Data Technical Specifications](https://www.canadapost-postescanada.ca/cpo/mc/assets/pdf/business/pc_latLong_specs_en.pdf).".
