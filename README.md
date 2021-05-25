@@ -12,9 +12,6 @@ This is the data repository for project titled "Cloud Computing Research Collabo
 ## Usage:
 > The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
 
-## Credits:
-Include a section for credits in order to highlight and link to the authors of your project.
-
 ## License for Code:
 The code is licensed under a MIT license. See [LICENSE.txt](LICENSE.txt) for details.
 
