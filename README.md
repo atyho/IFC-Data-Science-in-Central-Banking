@@ -7,6 +7,7 @@ This is the data repository for project titled "Cloud Computing Research Collabo
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License for Code](#License-for-Code)
+- [Software Requirements](#Software-Requirements)
 - [Acknowledgements](#Acknowledgements)
 - [References](#References)
 
@@ -15,6 +16,11 @@ This is the data repository for project titled "Cloud Computing Research Collabo
 
 ## Usage
 > The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+
+## Software Requirements
+- Apache Spark 2.3.0
+- Python 3.6.4
+  - [pyspark 3.1.1](https://spark.apache.org/docs/latest/api/python/) 
 
 ## License for Code
 The code is licensed under a MIT license. See [LICENSE.txt](LICENSE.txt) for details.
