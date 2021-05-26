@@ -13,7 +13,8 @@ This is the data repository for project titled "Cloud Computing Research Collabo
 
 ## Installation
 User can use Microsoft Azure Databricks.
-Alternatively, with [installing Spark](spark_installation) 
+
+Interested users can set up their own managed cloud computing service (JupyterHub) following the step-by-step guide in our JEM article. Spark functionality can be added following the guide on [installing Spark](spark_installation.md).
 
 ## Usage
 > The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
