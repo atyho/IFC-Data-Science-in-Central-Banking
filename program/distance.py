@@ -25,7 +25,7 @@ sqlContext = SQLContext(sc)
 #df_MOP.createOrReplaceTempView("df_MOP")
 
 # Load data on PCCF from Statistics Canada
-df_pccf = spark.read.csv("../Data/pccf_can_nov2019.csv", header=True) \
+df_pccf = spark.read.csv("../data/pccf.csv", header=True) \
   .withColumn("pstlcode", upper(col("pstlcode"))) \
   .withColumn("pstlcode", regexp_replace(col("pstlcode"),"\s+","")) \
   .withColumn("fsa", col("pstlcode").substr(1,3)) \
