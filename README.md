@@ -23,7 +23,7 @@ This is the data repository for project titled "Cloud Computing Research Collabo
   - [pyspark 3.1.1](https://spark.apache.org/docs/latest/api/python/) 
 
 ## License for Code
-The code is licensed under a MIT license. See [LICENSE.txt](LICENSE) for details.
+The code is licensed under a MIT license. See [LICENSE](LICENSE) for details.
 
 ## Acknowledgements
 The views expressed in this paper are those of the authors; no responsibility for these views should be attributed to the authors' affiliated organizations; all errors are the responsibility of the authors. We thank the ITS department at the Bank of Canada for their excellent assistance with Microsoft Azure Databricks. 
