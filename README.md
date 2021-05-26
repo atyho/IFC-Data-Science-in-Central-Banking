@@ -6,8 +6,8 @@ This is the data repository for project titled "Cloud Computing Research Collabo
 ## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [License for Code](#License-for-Code)
 - [Software Requirements](#Software-Requirements)
+- [License for Code](#License-for-Code)
 - [Acknowledgements](#Acknowledgements)
 - [References](#References)
 
