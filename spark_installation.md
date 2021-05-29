@@ -30,7 +30,7 @@ export PYSPARK_PYTHON=/usr/bin/python3
 
 For command line interface, simply type ``pyspark`` in your terminal.
 
-To run Spark on Jupyter Lab, install the [findspark](https://pypi.org/project/findspark/) package by typing ``pip install findspark``. Include the following script before in your Jupyter notebook before ``import pyspark``
+To run Spark on Jupyter Lab, install the [findspark](https://pypi.org/project/findspark/) package by typing ``pip install findspark``. In your notebook, include the following script before ``import pyspark``
 ```
 import findspark
 findspark.init()
