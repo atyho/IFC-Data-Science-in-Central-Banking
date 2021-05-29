@@ -38,6 +38,11 @@ findspark.init()
 import pyspark
 ```
 
+### Launching Applications in Batch Mode with spark-submit
+
+For more information, see [submitting applications](https://spark.apache.org/docs/latest/submitting-applications.html) in Spark.
+
+<!-- Uncommon, mainly for testing
 ### Starting a Spark Cluster Manually
 
 To start a standalone master server maunally, type ``start-master.sh``. Once started, the master will print out a ``spark://HOST:PORT`` URL for itself, which you can use to connect workers to it, or pass as the "master" argument to SparkContext. You can also find this URL on the master’s web UI, which is http://localhost:8080 by default.
@@ -47,6 +52,7 @@ Similarly, you can start a worker and connect to the master by ``start-worker.sh
 Alternatively, start both the master and workers by ``start-all.sh``. This launch scripts defaults to a single machine (localhost). See Spark 3.1.1 [cluster launch scripts](https://spark.apache.org/docs/3.1.1/spark-standalone.html#cluster-launch-scripts) for details on advanced Spark configurations.
 
 To stop all Spark instances, exit Spark enter ``stop-all.sh``.
+-->
 
 # Windows environment
 To be added
