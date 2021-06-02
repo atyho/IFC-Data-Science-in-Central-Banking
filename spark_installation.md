@@ -69,9 +69,18 @@ Download and install Java from Oracle's [Java website](https://www.java.com/en/d
 
 The steps are similar to those for a Linux environment. Therefore the procedures are only briefly described in this section. For details, see the section on [installing full version of Apache Spark](#Install-Full-Version-of-Apache-Spark).
 
-Download Apache Spark from their [website](http://spark.apache.org/downloads.html). Choose the latest Spark release 3.1.2 (as of June 1, 2021) and pick a package type pre-built for Apache Hadoop 3.2 and later (as of June 1, 2021). Extract the files from the downloaded tar file in any folder of your choice using [7-Zip](https://www.7-zip.org/) or other compatible tools.
+Download Apache Spark from their [website](http://spark.apache.org/downloads.html). Choose the latest Spark release 3.1.2 (as of June 1, 2021) and pick a package type pre-built for Apache Hadoop 3.2 and later (as of June 1, 2021). Extract the files from the downloaded tgz file in any directory of your choice (here we refer to it as ``SPARK_HOME``) using [7-Zip](https://www.7-zip.org/) or other compatible tools.
 
+To test your installation, open Command Prompt, change to ``SPARK_HOME`` directory and type ``bin\pyspark``. This should start the PySpark shell which can be used to interactively work with Spark.
 
+### Install winutils
+
+[winutils](https://github.com/cdarlint/winutils) are sets of Windows binaries for Apache Hadoop. To setup a Hadoop cluster for Spark, we need to install winutils and configure the Spark installation to find winutils.
+
+Create a folder called ``hadoop`` inside the ``SPARK_HOME`` directory. Download [winutils for hadoop 3.2.1](https://github.com/cdarlint/winutils/tree/master/hadoop-3.2.1). Copied the ``bin`` folder to the ``hadoop`` folder in the ``SPARK_HOME`` directory.
+
+Next, we need to configure Windows environment variables.
+Create a system environment variable called ``SPARK_HOME`` that points to the location of the ``SPARK_HOME`` directory. Create another system environment variable called ``HADOOP_HOME`` that points to the hadoop folder inside the ``SPARK_HOME`` directory using relative path ``%SPARK_HOME%\hadoop``.
 
 ### Reference
 
