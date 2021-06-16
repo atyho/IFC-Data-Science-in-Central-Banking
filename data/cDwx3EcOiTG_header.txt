@@ -1,0 +1,15 @@
+2016 Census Profiles Files / Profile of Census Disseminations Areas
+COL0 - GEO UID
+COL1 - Province name
+COL2 - CD name
+COL3 - DA name
+COL4 - Income - Total Sex (Average) / Total - Income statistics in 2015 for private households by household size - 25% sample data / Average total income of households in 2015 ($)
+COL5 - Income - Total Sex (Average) / Total - Income statistics in 2015 for economic families in private households - 25% sample data / Average total income of economic families in 2015 ($)
+COL6 - Income - Total Sex (Average) / Total - Income statistics in 2015 for private households by household size - 25% sample data / Average after-tax income of households in 2015 ($) / Total - Income statistics in 2015 for two-or-more-person private households - 25% sample data / Average total income of two-or-more-person households in 2015 ($)
+COL7 - Income - Total Sex (Average) / Total - Income statistics in 2015 for private households by household size - 25% sample data / Average after-tax income of households in 2015 ($) / Total - Income statistics in 2015 for one-person private households - 25% sample data / Average total income of one-person households in 2015 ($)
+COL8 - Housing - Total Sex / Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data / Average value of dwellings ($)
+COL9 - Housing - Total Sex / Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data / Average monthly shelter costs for owned dwellings ($)
+COL10 - Housing - Total Sex / Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data / % of owner households spending 30% or more of its income on shelter costs
+COL11 - Housing - Total Sex / Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data / Median monthly shelter costs for owned dwellings ($)
+COL12 - Housing - Total Sex / Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data / Median value of dwellings ($)
+COL13 - Housing - Total Sex / Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data / % of owner households with a mortgage
