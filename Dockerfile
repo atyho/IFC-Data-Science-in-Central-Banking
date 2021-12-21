@@ -1,8 +1,8 @@
-FROM bitnami/spark:latest
+FROM docker.io/bitnami/spark:latest
 
 USER root
-# Install python requirements
-RUN pip install pyspark
-ADD . /usr/local/src/
-WORKDIR /usr/local/src/program
-ENTRYPOINT ["spark-submit", "distance.py"]
+RUN pip install pyspark jupyterlab && \
+    mkdir -p /usr/local/src/app
+
+WORKDIR /usr/local/src/app/program
+ENTRYPOINT [ "spark-submit", "--verbose", "--master", "local[*]", "--driver-memory", "4G", "distance.py"]
