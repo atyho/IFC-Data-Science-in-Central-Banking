@@ -3,11 +3,7 @@ from pyspark import *
 from pyspark.sql.functions import *
 from pyspark.sql.types import DateType
 
-spark=SparkSession\
-.builder\
-.appName("Python Spark Dataframe")\
-.config(conf = SparkConf())\
-.getOrCreate()
+spark=SparkSession.builder.appName("Python Spark Dataframe").config(conf = SparkConf()).getOrCreate()
 
 sc = spark.sparkContext
 sqlContext = SQLContext(sc)
