@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  spark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bis_container_demo
+    environment:
+      SPARK_MODE: master
+      SPARK_RPC_AUTHENTICATION_ENABLED: no
+      SPARK_RPC_ENCRYPTION_ENABLED: no
+      SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED: no
+      SPARK_SSL_ENABLED: no
+    volumes:
+      - ".:/usr/local/src/app/"
