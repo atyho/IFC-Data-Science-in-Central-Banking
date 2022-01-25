@@ -64,7 +64,7 @@ df_nearest.createOrReplaceTempView("df_nearest")
 
 print('Saving data to files...')
 df_nearest.printSchema()
-df_nearest.write.parquet(path="df_nearest.parquet", mode="overwrite")
+# df_nearest.write.parquet(path="df_nearest.parquet", mode="overwrite")
 
 # Stop the sparkContext and cluster after processing
 sc.stop()
