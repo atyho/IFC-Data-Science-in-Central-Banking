@@ -7,6 +7,7 @@ This is the data repository for project titled "Cloud Computing Research Collabo
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Software Requirements](#Software-Requirements)
+- [Containerization](#Containerization)
 - [License for Code](#License-for-Code)
 - [Acknowledgements](#Acknowledgements)
 - [References](#References)
@@ -23,6 +24,10 @@ Interested users can set up their own managed cloud computing service (JupyterHu
 - Apache Spark 2.3.0
 - Python 3.6.4
   - [pyspark 3.1.1](https://spark.apache.org/docs/latest/api/python/) 
+
+## Containerization
+https://user-images.githubusercontent.com/66374834/151586693-95243c80-f40a-4d13-996c-734fb55a7b47.mp4
+
 
 ## License for Code
 The code is licensed under a MIT license. See [LICENSE](LICENSE) for details.
