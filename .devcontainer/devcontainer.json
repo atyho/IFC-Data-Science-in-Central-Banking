@@ -1,9 +1,12 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json 
-// See this file's README at https://github.com/microsoft/vscode-dev-containers
+// README at https://github.com/microsoft/vscode-dev-containers
 // If you want to run as a non-root user in the container, see .devcontainer/docker-compose.yml
+
 {
 	"name": "bitnami/spark:latest",
-	
+
+	"build": {
+
 	// Sets the run context to one level up instead of the .devcontainer folder.
 	"context": "..",
 	
@@ -30,6 +33,7 @@
 
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
+	"postCreateCommand": "python --version",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": ["4040"]
@@ -42,4 +46,14 @@
 
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
 	// "shutdownAction": "none",
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
+
 }
