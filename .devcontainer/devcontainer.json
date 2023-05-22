@@ -27,7 +27,7 @@
 	// "settings": {"terminal.integrated.shell.linux": null},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	//"extensions": ["GitHub.vscode-pull-request-github", "ms-python.python"],
+	"extensions": ["GitHub.vscode-pull-request-github", "ms-python.python"],
 
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
