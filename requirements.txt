@@ -1,10 +1,1 @@
 pandas
-numpy
-patsy
-statsmodels
-scipy
-matplotlib
-path
-openpyxl
-display
-pystata
