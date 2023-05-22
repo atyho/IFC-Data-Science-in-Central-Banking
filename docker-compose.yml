@@ -3,7 +3,7 @@ version: '3'
 services:
   spark:
     build:
-      context: ..
+      context: .
       dockerfile: Dockerfile
     image: bis_container_demo
     environment:
