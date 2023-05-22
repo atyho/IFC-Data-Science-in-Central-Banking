@@ -1,7 +1,7 @@
 FROM docker.io/bitnami/spark:latest
 
 USER root
-RUN pip --no-cache-dir install pyspark && \
+RUN pip3 --no-cache-dir install pyspark && \
     mkdir -p /usr/local/src/app
 
 COPY requirements.txt /tmp/pip-tmp/
