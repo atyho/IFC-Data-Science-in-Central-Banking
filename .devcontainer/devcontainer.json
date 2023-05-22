@@ -5,8 +5,6 @@
 {
 	"name": "bitnami/spark:latest",
 
-	"build": {
-
 	// Sets the run context to one level up instead of the .devcontainer folder.
 	"context": "..",
 	
@@ -46,7 +44,6 @@
 
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
 	// "shutdownAction": "none",
-	},
 
 	"customizations": {
 		"vscode": {
