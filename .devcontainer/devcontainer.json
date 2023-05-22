@@ -32,7 +32,7 @@
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": ["4040"],
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
 	// "runServices": [],
