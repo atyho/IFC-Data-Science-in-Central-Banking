@@ -2,9 +2,9 @@ version: '3'
 
 services:
   spark:
-    build:
-      context: .
-      dockerfile: Dockerfile
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
     image: bis_container_demo
     environment:
       SPARK_MODE: master
